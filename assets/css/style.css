@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body {
-    background-color: #610a04;
-    color: #FFF;
-}
 
 .navbar {
     margin-bottom: 0;
     margin-top: 0;
     border-radius: 0;
-    background-color: #5c2820;
+    background-color: #910e04;
     color: #FFF;
     padding: 1% 0;
     font-size: 1.2em;
@@ -27,7 +23,7 @@ body {
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
     color: #FFF;
-    background-color: #5c2820;
+    background-color: #910e04;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -40,6 +36,17 @@ body {
     text-transform: uppercase
 }
 
+body {
+    color: #FFF;
+}
+
+.content {
+    background: url('../images/backgroundpic.jpg') repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 h2 {
     text-align: center;
@@ -87,12 +94,15 @@ p {
 .center-form {
     padding-top: 15px;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 40%;
 }
 
+.btn, .btn-danger {
+    padding: 7px;
+}
 footer {
     width: 100%;
-    background-color: #5c2820;
+    background-color: #910e04;
     padding: 2%;
     color: #FFF
 }
@@ -108,9 +118,19 @@ footer {
     text-decoration: none
 }
 
+@media (max-)
+
 @media (max-width:600px) {
     .carousel-caption {
         display: none;
     }
+    
+    p {
+        font-size: 1.2em;
+    }
+    
+    
 
 }
+
+@media (min-width:900px) {}

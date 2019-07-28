@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+/*--------------Navbar--------------*/
 .navbar {
     margin-bottom: 0;
     margin-top: 0;
@@ -35,7 +35,7 @@
     margin-top: 12%;
 }
 
-
+/*--------------Content--------------*/
 body {
     max-width: 100%;
     color: #FFF;
@@ -74,6 +74,7 @@ p {
     color: #fff;
 }
 
+/*--------------Media--------------*/
 .embed-responsive-item {
     width: 90%;
     height: 100%;
@@ -93,17 +94,22 @@ p {
     filter: alpha(opacity=100);
 }
 
+/*--------------Form--------------*/
+
 .center-form {
     padding-top: 15px;
     margin: 0 auto;
-    max-width: 40%;
+    max-width: 50%;
+    margin-bottom: 25px;
 }
 
 .btn,
 .btn-danger {
-    padding: 7px;
+    padding: 10px;
+    margin-top: 10px
 }
 
+/*--------------Footer--------------*/
 footer {
     width: 100%;
     background-color: #910e04;
@@ -122,6 +128,7 @@ footer {
     text-decoration: none
 }
 
+/*--------------Media Queries--------------*/
 
 @media (min-width: 600px) {
     .carousel-inner {

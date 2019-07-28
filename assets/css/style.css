@@ -75,11 +75,6 @@ p {
 }
 
 /*--------------Media--------------*/
-.embed-responsive-item {
-    width: 90%;
-    height: 100%;
-    margin: 5% auto;
-}
 
 .img-responsive {
     width: 90%;
@@ -92,6 +87,12 @@ p {
 .img-responsive:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
+}
+
+.embed-responsive-item {
+    width: 90%;
+    height: 100%;
+    margin: 5% auto;
 }
 
 /*--------------Form--------------*/
@@ -166,14 +167,19 @@ footer {
     p {
         font-size: 1.2em;
     }
+    
+    .img-responsive {
+    width: 90%;
+    margin: 5% auto;
+    }
 
+.center-form {
+    max-width: 90%
 }
 
-
-@media (min-width: 600px) {
-    .item {
-        margin-top: 5%;
-    }
+.fa {
+    font-size: 30px 
+}
 }
 
 

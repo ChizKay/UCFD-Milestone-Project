@@ -1,4 +1,4 @@
-# My Band
+# Paramore
 
 This is a static website, designed to provide adequate information about the 2004 band, Paramore. This is a single page website with 5 seperate sections; Home, About, Services, Media and Contact (contact form for potential customers who will need to provide a name, email and a description of their event, in order to get a Service quotation).
 

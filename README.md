@@ -14,6 +14,7 @@ In this project the Navigation bar is fixed at the top, and each section can be 
 
 Below the Navigation bar are 3 images constantly sliding over each other. I used the Carousel plugin in Bootstrap to achieve this. Left (previous) and Right (next) arrows are provided on either side to navigate through the images, as well as, 3 dots to select each image.
  
+The images in the "About" and "Services" sections have a hover effect styled over them. The images are transparent, blended in well with the background, when the mouse cursor is away from them. When hovered over the opacity increases, therefore, brightening the images. 
 
 ### Features Left to Implement
 
